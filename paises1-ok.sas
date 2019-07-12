@@ -1,0 +1,11 @@
+DATA Paises1;
+INPUT Nombre $ 1-12 PNB PobEcAc Nat Mort MorInf Zona $;
+Indice1=PNB/Mort; IndCrec=Mort/Nat;
+CARDS;
+Costa Rica	1900	59.6	26.00	4.0	16000	CENTROAM
+Cuba		2600	56.9	17.50	6.5	11100	CARIBE
+Chile 		1940	63.0	22.00	6.0	17000	SURAMER
+Dominica	2210	63.0	20.80	5.2	14000	CARIBE
+Ecuador		980	56.6	30.00	7.0	55000	SURAMER
+;
+RUN;
